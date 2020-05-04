@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+}
+.container{
+    width: 92%;
+    margin: auto;
+}
+.header{
+    background-image: url('../imgs/bg1.jpg');
+    background-size: 100%;
+    background-attachment: scroll;
+    height: 540px;
+}
+.header .navigation .time{
+   background-color: #3fbbc0;
+    padding: 15px;
+}
+.header .navigation .time span:last-of-type{
+    float: right;
+}
+
+.header .navigation .nav{
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 2px 2px 0px 0px;
+}
+
+.header .navigation .nav .logo{
+    width: 40%;
+    float: left;
+    margin-top: 15px;
+}
+.header .navigation .nav .logo img{
+    width: 35%;
+}
+.header .navigation .nav .list{
+    width: 60%;
+    float: left;
+}
+.header .navigation .nav .list ul{
+    float: right;
+    list-style: none;
+    width: 69%;
+}
+.header .navigation .nav .list ul li{
+    float: left;
+    font-size: 25px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: .5s all;
+}
+.header .navigation .nav .list ul li:hover{
+    color: aqua;
+}
+
+.header .info .advices , .header .info .photo{
+    width: 50%;
+    float: left;
+}
+.header .info .photo img{
+    width: 100%;
+    height: 431;
+}
+.header .info .advices .advices-two{
+    border: 2px solid rgba(0, 91, 128, 0.57);
+    border-radius: 10px;
+    padding:3px 20px;
+}
+.header .info .advices .advices-two p , .header .info .advices .advices-two button{
+    margin-left: 50px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.header .info .advices .advices-two button{
+    padding: 7px 16px;
+    color: white;
+    background-color: aqua;
+    border: 1px;
+    border-radius: 8px;
+}
+
+.header .info .advices .advices-two p.special{
+    font-size: 25px;
+    color: #00000094;
+}
+.header .info .advices .advices-two p:not(.special){
+    font-size: 20px;
+}
+.header .info .advices .advices-two{
+    overflow: hidden;
+}
+.header .info .advices .advices-two div{
+   margin-bottom: 34.5px;
+    
+}
+.header .info .advices .advices-two div p:last-of-type{
+    margin-bottom: 0px;
+}
+.header .info .advices .advices-two button{
+    float: right;
+}
+.header .info .advices .advices-two span .icon{
+    font-size: 30px;
+    margin-top: -25px;
+    color: rgba(0, 91, 128, 0.57);
+}
